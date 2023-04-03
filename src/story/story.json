@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "New Beginnings",
+        "description": "You wake up on a strange planet. You have no idea how you got here, but you know you need to get off this planet. You look around and see a small village in the distance. You can either go to the village or explore the planet.",
+        "isEnding": false,
+        "leftid": 2,
+        "left": "Check out the village",
+        "rightid": 3,
+        "right": "Explore the planet"
+    },
+    {
+        "id" : 2,
+        "title": "Node 2",
+        "description": "Node 2 description",
+        "isEnding": false,
+        "leftid": 4,
+        "left": "Node 4",
+        "rightid": 5,
+        "right": "Node 5"
+    },
+    {
+        "id" : 3,
+        "title": "Node 3",
+        "description": "Node 3 description",
+        "isEnding": false,
+        "leftid": 6,
+        "left": "Node 6",
+        "rightid": 7,
+        "right": "Node 7"
+    },
+    {
+        "id" : 4,
+        "title": "Node 4",
+        "description": "Node 4 description",
+        "isEnding": true
+    },
+    {
+        "id" : 5,
+        "title": "Node 5",
+        "description": "Node 5 description",
+        "isEnding": true
+    },
+    {
+        "id" : 6,
+        "title": "Node 6",
+        "description": "Node 6 description",
+        "isEnding": true
+    },
+    {
+        "id" : 7,
+        "title": "Node 7",
+        "description": "Node 7 description",
+        "isEnding": true
+    }
+]
