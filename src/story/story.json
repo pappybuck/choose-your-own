@@ -11,8 +11,8 @@
     },
     {
         "id" : 2,
-        "title": "Node 2",
-        "description": "Node 2 description",
+        "title": "The burnt village",
+        "description": "You arrive at the village to find it a smoldering ruin. ",
         "isEnding": false,
         "leftid": 4,
         "left": "Node 4",
