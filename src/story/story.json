@@ -12,45 +12,258 @@
     {
         "id" : 2,
         "title": "The burnt village",
-        "description": "You arrive at the village to find it a smoldering ruin. ",
+        "description": "You arrive at the village to find it a smoldering ruin. After walking around for a while, you find a small group of survivors. They tell you that the village was attacked by a group of bandits. They ask you to help them get revenge. You can either help them or leave them to their fate and go explore the planet.",
         "isEnding": false,
         "leftid": 4,
-        "left": "Node 4",
-        "rightid": 5,
-        "right": "Node 5"
+        "left": "Aid the survivors",
+        "rightid": 3,
+        "right": "Explore the planet"
     },
     {
         "id" : 3,
-        "title": "Node 3",
-        "description": "Node 3 description",
+        "title": "The glowing tree",
+        "description": "You start exploring the planet and quickly find a giant tree. You notice that the tree has a strange glow coming from it. You can either climb the tree or look for an entrance somewhere else.",
         "isEnding": false,
         "leftid": 6,
-        "left": "Node 6",
+        "left": "Start climbing the tree",
         "rightid": 7,
-        "right": "Node 7"
+        "right": "Look for an entrance"
     },
     {
         "id" : 4,
-        "title": "Node 4",
-        "description": "Node 4 description",
-        "isEnding": true
+        "title": "The bandits",
+        "description": "After agreeing to help the survivors, they quickly lead you to the bandits' camp where you find them sleeping. You can either kill them in their sleep using their weapons or you can attempt to talk to them.",
+        "isEnding": false,
+        "leftid": 5,
+        "left": "Kill them in their sleep",
+        "rightid": 8,
+        "right": "Attempt to talk to them"
+        
     },
     {
         "id" : 5,
-        "title": "Node 5",
-        "description": "Node 5 description",
-        "isEnding": true
+        "title": "Cleaning up the bandits",
+        "description": "You find several weapons around the camp and quickly kill the bandits before they can wake up. The survivors are grateful for your help and give you a reward. The survivors also mention the existence of a spaceport nearby. You can either go to the spaceport or explore the planet.",
+        "isEnding": false,
+        "leftid": 9,
+        "left": "Go to the spaceport",
+        "rightid": 3,
+        "right": "Explore the planet"
     },
     {
         "id" : 6,
-        "title": "Node 6",
-        "description": "Node 6 description",
-        "isEnding": true
+        "title": "The climb",
+        "description": "After climbing the tree for several minutes, you finally reach the top. You find a small entrance and decide to go inside. You find yourself in a small room with a strange machine. You can either turn on the machine or leave the room.",
+        "isEnding": false,
+        "leftid": 10,
+        "left": "Turn on the machine",
+        "rightid": 11,
+        "right": "Leave the room"
     },
     {
         "id" : 7,
-        "title": "Node 7",
-        "description": "Node 7 description",
+        "title": "The entrance",
+        "description": "After searching around the base of the tree for awhile, you come across a small entrance. You decide to go inside. After crawling through the entrance for a few minutes, you find yourself stuck with no way out. You can either call out for help or go to sleep.",
+        "isEnding": false,
+        "leftid": 12,
+        "left": "Call out for help",
+        "rightid": 13,
+        "right": "Go to sleep"
+    },
+    {
+        "id": 8,
+        "title": "The negotiations",
+        "description": "After waking up the bandits, you attempt to talk to them. To your surprise, they were none to pleased with you disturbing their sleep. They quickly attack you and you are overwhelmed.",
+        "isEnding": true
+    },
+    {
+        "id": 9,
+        "title": "The spaceport",
+        "description": "After walking in the direction of the spaceport, you find a small outpost with a shuttle docked. You can either attempt to steal the shuttle or you can buy a ticket on the next shuttle.",
+        "isEnding": false,
+        "leftid": 14,
+        "left": "Steal the shuttle",
+        "rightid": 15,
+        "right": "Buy a ticket"
+    },
+    {
+        "id": 10,
+        "title": "The machine",
+        "description": "After turning on the machine, the room is quickly lit up with brilliant colors and a strange smell. You suddenly feel a strange sensation in your head and you pass out. You wake up in a field with several hooded figures surrounding you. You can either run away or you can try to talk to them.",
+        "isEnding": false,
+        "leftid": 16,
+        "left": "Run away",
+        "rightid": 17,
+        "right": "Try to talk to them"
+    },
+    {
+        "id": 11,
+        "title": "Back on top",
+        "description": "After exiting the room, you find yourself back on top of the tree but you don't recognize the surrounding area. After climbing down the tree, you find yourself on the banks of a great river. You can either cross the river or you can try to find a way around.",
+        "isEnding": false,
+        "leftid": 18,
+        "left": "Cross the river",
+        "rightid": 19,
+        "right": "Try to find a way around"
+    },
+    {
+        "id": 12,
+        "title": "The rescue",
+        "description": "After calling out for help, you hear a faint voice in the distance. After several agonizing hours, you are finally rescued. You are taken to a nearby village where you are treated for your injuries. The villagers offer to help you find a way off the planet. You can either accept their assistance or politely decline and go exploring.",
+        "isEnding": false,
+        "leftid": 20,
+        "left": "Accept their assistance",
+        "rightid": 21,
+        "right": "Explore the planet"
+    },
+    {
+        "id": 13,
+        "title": "The sleep",
+        "description": "After waking up, you find yourself in a field with several hooded figures surrounding you. You can either run away or you can try to talk to them.",
+        "isEnding": false,
+        "leftid": 16,
+        "left": "Run away",
+        "rightid": 17,
+        "right": "Try to talk to them"
+    },
+    {
+        "id": 14,
+        "title": "The heist",
+        "description": "After stealing the shuttle, you quickly take off and then remember you don't know how to fly. After crashing back into the planet, are quickly apprehended by the planetary authorities and are taken to a nearby prison. You are sentenced to life in prison.",
+        "isEnding": true
+    },
+    {
+        "id": 15,
+        "title": "The ticket",
+        "description": "After buying a ticket, you quickly board the shuttle and take off. After a few minutes, a passenger pulls a blaster from their bag and demands that the shuttle change course to an outlaw station. You can either wait for the authorities to save you or you can attempt to subdue the hijacker.",
+        "isEnding": false,
+        "leftid": 22,
+        "left": "Wait for the authorities",
+        "rightid": 31,
+        "right": "Subdue the hijacker"
+    },
+    {
+        "id": 16,
+        "title": "The escape",
+        "description": "After running away, you hear an ear piercing scream and then you feel a sharp pain in your back. You quickly realize that you have been shot. You fall to the ground and bleed out.",
+        "isEnding": true
+    },
+    {
+        "id": 17,
+        "title": "The conversation",
+        "description": "After talking to the hooded figures, they quickly remove their hoods and reveal themselves to be aliens. The give you a choice to either participate in their experiment or die.",
+        "isEnding": false,
+        "leftid": 23,
+        "left": "Participate in the experiment",
+        "rightid": 24,
+        "right": "Die"
+    },
+    {
+        "id": 18,
+        "title": "The river",
+        "description": "You try to cross the river but are quickly swept away by the current. You are never seen again.",
+        "isEnding": true
+    },
+    {
+        "id": 19,
+        "title": "The path",
+        "description": "After searching for a way around the river, you find a small path leading through the forest. After walking for several hours, you come across a small village. You can either ask the villagers for directions or you can continue on your own.",
+        "isEnding": false,
+        "leftid": 25,
+        "left": "Ask the villagers for directions",
+        "rightid": 21,
+        "right": "Continue on your own"
+    },
+    {
+        "id": 20,
+        "title": "The village",
+        "description": "After accepting the villagers assistance, they give you directions to the spaceport. You can either follow the directions or you can try to find a shortcut.",
+        "isEnding": false,
+        "leftid": 25,
+        "left": "Follow the directions",
+        "rightid": 26,
+        "right": "Try to find a shortcut"
+    },
+    {
+        "id": 21,
+        "title": "The ice forest",
+        "description": "After exploring the area, you come across a strange forrest made entirely of ice. You decide to investigate further. You find a hut in the middle of the forest. You can either enter the hut or you can continue exploring.",
+        "isEnding": false,
+        "leftid": 27,
+        "left": "Enter the hut",
+        "rightid": 28,
+        "right": "Continue exploring"
+    },
+    {
+        "id": 22,
+        "title": "The authorities",
+        "description": "After several agonizing hours, you are finally rescued. The authorities apologize for the inconvenience and give you a free ticket to the next shuttle. This time, the shuttle is not hijacked and you are able to return home.",
+        "isEnding": true
+    },
+    {
+        "id": 23,
+        "title": "The experiment",
+        "description": "The aliens quickly strap you to a table and begin to perform an experiment on you. After several hours, you are released and the aliens leave. You are left with a strange feeling in your head and you can't remember exactly what happened. The aliens were nice enough to allow you to pick where you want to be dropped off. You choose to be dropped off on a space station and you are able to return home, although you are never quite the same.",
+        "isEnding": true
+    },
+    {
+        "id": 24,
+        "title": "The death",
+        "description": "The aliens kill you but are nice enough to make it quick and painless.",
+        "isEnding": true
+    },
+    {
+        "id": 25,
+        "title": "Directions",
+        "description": "The villagers provide you directions and you arrive at the spaceport. You can either attempt to steal the shuttle or buy a ticket.",
+        "isEnding": false,
+        "leftid": 14,
+        "left": "Steal the shuttle",
+        "rightid": 15,
+        "right": "Buy a ticket"
+    },
+    {
+        "id": 26,
+        "title": "The shortcut",
+        "description": "You attempt to find a shortcut a quickly find yourself stranded in the cold. Instead of trusting the locals, you instead find yourself getting eaten by wolves.",
+        "isEnding": true
+    },
+    {
+        "id": 27,
+        "title": "The witch's hut",
+        "description": "After entering the hut, you quickly find yourself face to face with a boiling cauldron. You can either drink the liquid from the cauldron, or wait for the witch to return.",
+        "isEnding": false,
+        "leftid": 29,
+        "left": "Drink up",
+        "rightid": 30,
+        "right": "Wait for the witch"
+    },
+    {
+        "id": 28,
+        "title": "The cold",
+        "description": "You quickly freeze to death in a blizzard.",
+        "isEnding": true
+    },
+    {
+        "id": 29,
+        "title": "The liquid",
+        "description": "After drinking the liquid, you are quickly transformed into a black cat. You no longer care about leaving the planet and instead spend the rest of your life sleeping in the sun.",
+        "isEnding": true
+    },
+    {
+        "id": 30,
+        "title": "The witch",
+        "description": "After waiting for the witch to come back, they finally return. It turns out that the witch is not a bad witch at all. They give you a ride to the spaceport on their broomstick. You can either steal the shuttle or buy a ticket.",
+        "isEnding": false,
+        "leftid": 14,
+        "left": "Steal the shuttle",
+        "rightid": 15,
+        "right": "Buy a ticket"
+    },
+    {
+        "id": 31,
+        "title": "The hijacker",
+        "description": "After subduing the hijacker, you patiently wait for the authorities to arrive. After several agonizing hours, you are finally rescued. The authorities apologize for the inconvenience and give you a free ticket to the next shuttle. This time, the shuttle is not hijacked and you are able to return home.",
         "isEnding": true
     }
 ]
